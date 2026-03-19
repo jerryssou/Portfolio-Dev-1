@@ -28,24 +28,3 @@ main {
         height: 100%;
     }
 }
-
-.end {
-    margin-top: 7%;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px; 
-}
-
-.image-container img {
-    transition: all 0.3s ease;
-    border-radius: 15px;
-    width: 350px; 
-}
-
-.image-container img:hover {
-    transform: scale(1.22) translateY(-8px);
-}
